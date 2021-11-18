@@ -80,7 +80,7 @@ function setupRW() {
 	g_jsview_butterfly = new Int64(bf);
 	if(!read64(g_jsview_butterfly.sub(16)).equals(new Int64("0xffff000000001337")))
 		die("[!] Failed to setup addrof/fakeobj primitives");
-	debug_log("->Exploit Complete..Run Jailbreak !!");
+	debug_log("Pirateo Completado");
 	if(window.postExploit)
 		window.postExploit();
 }
